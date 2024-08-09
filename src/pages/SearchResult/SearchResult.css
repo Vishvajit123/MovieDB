@@ -1,0 +1,24 @@
+/* SearchResult.css */
+.search-results {
+    padding: 20px;
+}
+
+.search-results__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.search-results__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.search-results__grid p {
+    font-size: 18px;
+    color: #ccc;
+    text-align: center;
+    grid-column: span 2;
+}
